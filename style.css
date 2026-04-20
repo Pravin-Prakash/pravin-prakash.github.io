@@ -1,115 +1,48 @@
 body {
   margin: 0;
+  font-family: Arial, sans-serif;
   text-align: center;
-  font-family: 'Merriweather', serif;
 }
 
-/* TOP SECTION */
-.top-container {
-  background-color: #eaf6f6;
-  position: relative;
-  padding-top: 100px;
+header {
+  background: #0f172a;
+  color: white;
+  padding: 60px 20px;
 }
 
-h1 {
-  font-size: 4rem;
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  color: #66bfbf;
+section {
+  padding: 40px 20px;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #66bfbf;
-  font-weight: normal;
+  margin-bottom: 20px;
 }
 
-.underline {
-  text-decoration: underline;
+/* grid layout */
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-/* CLOUDS */
-.top-cloud {
-  position: absolute;
-  right: 200px;
-  top: 40px;
+.grid div {
+  background: #e2e8f0;
+  padding: 10px 20px;
+  border-radius: 8px;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 200px;
-  bottom: 40px;
+/* project card */
+.card {
+  background: #f1f5f9;
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
 }
 
-/* PROFILE */
-.profile-img {
-  width: 150px;
-  border-radius: 50%;
-  margin-top: 40px;
-}
-
-.middle-container {
-  margin: 100px 0;
-}
-
-.intro {
-  width: 40%;
-  margin: auto;
-  line-height: 2;
-}
-
-.quote {
-  font-style: italic;
-  margin-top: 20px;
-}
-
-/* SKILLS */
-.skills {
-  margin-top: 50px;
-}
-
-.skill-row {
-  width: 60%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.skill-img {
-  width: 25%;
-}
-
-.left {
-  float: left;
-  margin-right: 30px;
-}
-
-.right {
-  float: right;
-  margin-left: 30px;
-}
-
-/* LINE */
-hr {
-  border: dotted #cce7e8 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
-
-/* FOOTER */
-.bottom-container {
-  background-color: #66bfbf;
-  padding: 30px 0;
-}
-
-.bottom-container a {
+footer {
+  background: #0f172a;
   color: white;
-  margin: 20px;
-  text-decoration: none;
-}
-
-.bottom-container p {
-  color: white;
-  margin-top: 20px;
+  padding: 20px;
 }
