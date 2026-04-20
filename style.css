@@ -2,81 +2,15 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background: linear-gradient(to right, #eef2ff, #fdf2f8);
+  position: relative;
 }
 
-/* HEADER */
-header {
-  background: linear-gradient(135deg, #6366f1, #ec4899);
-  color: white;
-  padding: 80px 20px;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-}
-
-header h1 {
-  font-size: 2.5rem;
-}
-
-/* SECTIONS */
-section {
-  padding: 50px 20px;
-}
-
-h2 {
-  margin-bottom: 20px;
-  color: #4f46e5;
-}
-
-/* SKILLS GRID */
-.grid {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-/* CARD */
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 15px;
-  width: 120px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.card img {
-  width: 50px;
-  margin-bottom: 10px;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-}
-
-/* PROJECT CARDS */
-.project-card {
-  background: white;
-  margin: 20px auto;
-  padding: 20px;
-  width: 280px;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.project-card img {
-  width: 60px;
-}
-
-.project-card:hover {
-  transform: scale(1.05);
-}
-
-/* FOOTER */
-footer {
-  background: #111827;
-  color: white;
-  padding: 20px;
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/bg.jpg") center/cover no-repeat;
+  z-index: -1;
 }
