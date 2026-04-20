@@ -4,7 +4,7 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-/* Top Section */
+/* TOP SECTION */
 .top-container {
   background-color: #eaf6f6;
   position: relative;
@@ -12,50 +12,104 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
   color: #66bfbf;
 }
 
 h2 {
-  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
 }
 
-/* Clouds */
-.cloud {
-  width: 100px;
-  position: absolute;
+.underline {
+  text-decoration: underline;
 }
 
+/* CLOUDS */
 .top-cloud {
+  position: absolute;
   right: 200px;
   top: 40px;
 }
 
 .bottom-cloud {
+  position: absolute;
   left: 200px;
   bottom: 40px;
 }
 
-/* Profile */
-.profile {
+/* PROFILE */
+.profile-img {
   width: 150px;
   border-radius: 50%;
   margin-top: 40px;
 }
 
-/* Middle */
 .middle-container {
-  padding: 50px 0;
+  margin: 100px 0;
 }
 
-/* Skills */
-.skill {
-  margin: 20px;
+.intro {
+  width: 40%;
+  margin: auto;
+  line-height: 2;
 }
 
-/* Footer */
+.quote {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* SKILLS */
+.skills {
+  margin-top: 50px;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img {
+  width: 25%;
+}
+
+.left {
+  float: left;
+  margin-right: 30px;
+}
+
+.right {
+  float: right;
+  margin-left: 30px;
+}
+
+/* LINE */
+hr {
+  border: dotted #cce7e8 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/* FOOTER */
 .bottom-container {
   background-color: #66bfbf;
-  padding: 20px;
+  padding: 30px 0;
+}
+
+.bottom-container a {
   color: white;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.bottom-container p {
+  color: white;
+  margin-top: 20px;
 }
