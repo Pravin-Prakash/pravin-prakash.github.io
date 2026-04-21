@@ -1,48 +1,46 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+  /* 🌿 Nature Background */
+  background: url("images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
-header {
-  background: #0f172a;
-  color: white;
-  padding: 60px 20px;
-}
-
-section {
-  padding: 40px 20px;
-}
-
-h2 {
-  margin-bottom: 20px;
-}
-
-/* grid layout */
-.grid {
+/* DARK OVERLAY (makes text readable) */
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
 }
 
-.grid div {
-  background: #e2e8f0;
-  padding: 10px 20px;
-  border-radius: 8px;
-}
-
-/* project card */
-.card {
-  background: #f1f5f9;
-  margin: 20px auto;
-  padding: 20px;
-  width: 300px;
-  border-radius: 10px;
-}
-
-footer {
-  background: #0f172a;
+/* CENTER CONTENT */
+.container {
+  text-align: center;
   color: white;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+/* GLASS CARDS */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
   padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.2);
 }
