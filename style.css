@@ -37,13 +37,13 @@ h1 {
 
 /* GLASS CARDS */
 .card {
-  #background: rgba(255, 255, 255, 0.1); ->to give bg glass effect like iphone
-  #backdrop-filter: blur(10px);
-  background: #ffffff; /* solid background */
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 12px;
-  border: none;
+  background: rgba(255, 255, 255, 0.1); ->to give bg glass effect like iphone
+  backdrop-filter: blur(10px);
+  #background: #ffffff; /* solid background */
+  #padding: 20px;
+  #margin: 20px 0;
+  #border-radius: 12px;
+  #border: none;
   color: #333; /* important so text is visible */
   padding: 20px;
   margin: 20px 0;
